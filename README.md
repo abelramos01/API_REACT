@@ -2,13 +2,13 @@
 
 *Estrutura do projeto*
 
-root/
-├── app/
-│   ├── _layout.js           # Define o layout da pilha de navegação (Stack)
-│   ├── index.js             # Tela principal com lista de usuários
-│   └── user/
-│       └── [id].js          # Tela de detalhes do usuário com rota dinâmica
-├── index.js                 # Arquivo de entrada do app (registro com ExpoRoot)
+root/app/_layout.js (Define o layout da pilha de navegação (Stack)) 
+
+root/app/index.js (Tela principal com lista de usuários) 
+
+root/app/user/[id].js (Tela de detalhes do usuário com rota dinâmica)
+
+root/ index.js (Arquivo de entrada do app (registro com ExpoRoot))
 
 O arquivo babel.config.js já está configurado para uso do expo router
 
